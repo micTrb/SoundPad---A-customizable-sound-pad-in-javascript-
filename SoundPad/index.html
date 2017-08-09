@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"type="text/css">
+    <link href="css/master.css" rel="stylesheet" type="text/css">
+
+
+    <!-- JS Files -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery/jquery-1.12.0.min.js"></script>
+
+
+    <script src="js/jquery-ui-1.12.0/jquery-ui.js"></script>
+    <script src="js/jquery-ui-1.12.0/jquery-ui.min.js"></script>
+    <script src="js/jquery/jQuery.pulsate.min.js"></script>
+    <!--<script src="js/jquery/jquery-ui.min.js"></script>-->
+    
+
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+
+    <!-- Main Code -->
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/blockdrag.js"></script>  
+
+
+
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-inverse" id="navbar0"> 
+      <div class="container-fluid" id="navitem"> 
+        <div class="navbar-header"> 
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="true"> 
+            <span class="sr-only">Toggle navigation</span> 
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span> 
+          </button> 
+          <a class="navbar-brand" href="#">Sounds Effects Pad</a> 
+        </div>  
+        <div class="navbar-collapse collapse in" id="bs-example-navbar-collapse-9" aria-expanded="true"> 
+          <ul class="nav navbar-nav"> 
+            <li><a href="#">Home</a></li> 
+            <li><a href="#">Link</a></li> 
+            <li><a href="#">Link</a></li> 
+          </ul> 
+        </div> 
+        
+      </div> 
+    </nav>
+      
+    <!-- Main Container -->
+    <div class="container-fluid" id="container0">
+
+      <div class="navbar-collapse collapse in" id="bs-example-navbar-collapse-9" aria-expanded="true">
+        <p id="instructions">Drag a Sound Effect and create your pad! Double click to remove a block sound</p>
+      </div>
+      <div class="container-fluid" id="controls">
+        <div id="clearPad" class="control"><p class="ctrltext">CLEAR PAD</p></div>
+        <div id="credits" class="control"><p class="ctrltext">Credits</p></div>
+      </div>
+
+
+
+    
+      <!-- Item Bar -->
+      <div class="container-fluid" id="itembar">
+        <div id="green" class="draggable">STICK</div>
+        <div id="blue" class="draggable">WATER</div>
+        <div id="red" class="draggable">FIRE</div>
+
+        <div id="yellow" class="draggable">COIN</div>
+        <div id="cyano" class="draggable">GLASS</div>
+        <div id="magenta" class="draggable">LASER</div>
+
+        <div id="orange" class="draggable">BEAM</div>
+        <div id="purple" class="draggable">ARROW</div>
+        <div id="brown" class="draggable">BOOM</div>
+        <div id="pink" class="draggable">BANG</div>
+      </div>
+
+      <!-- Container -->
+      <div class="container-fluid dropzone" id="dropzone1">
+        
+      </div>
+
+
+    </div>
+
+
+  
+
+
+  </body>
+</html>

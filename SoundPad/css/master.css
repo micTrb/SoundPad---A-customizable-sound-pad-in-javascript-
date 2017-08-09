@@ -1,0 +1,246 @@
+body
+{
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-radial-gradient(#207E9D 5%, black 120%) fixed; /* Safari 5.1-6.0 */
+	background: -o-radial-gradient(#207E9D 5%, black 120%) fixed; /* For Opera 11.6-12.0 */
+	background: -moz-radial-gradient(#207E9D 5%, black 120%) fixed; /* For Firefox 3.6-15 */
+	background: radial-gradient(#207E9D 5%, black 120%) fixed; /* Standard */
+}
+
+#titlehead
+{
+	color: #AC1000;
+	height: 50px;
+}
+
+#navbar0
+{
+	background: #AC1000;
+	border: none;
+}
+
+#navitem a
+{
+	color: white;
+	outline: none;
+}
+
+#navitem a:active, #navitem a:focus
+{
+	color: #A7EA29 ;
+}
+
+
+#container0
+{
+	width: 1200px;
+	height: 630px;
+	background: black;
+	padding: 10px;
+}
+
+#instructions
+{
+	font-size: 1.3em;
+	font-family: "Arial";	
+	font-weight: bold;
+	color: white;
+	background-color: #1F1F1F;
+}
+
+#itembar
+{
+	width: 1000px;
+	height: 90px;
+	float: right;
+	margin: 10px;
+	background-color: #1F1F1F;
+}
+
+#dropzone1
+{
+	/*border: 1px solid red;*/
+	background-color: #1F1F1F;
+	width: 1000px;
+	height: 450px;
+	margin: 10px;
+	transition: all 0.5s;
+	float: right;
+}
+
+#controls
+{
+	/*border: 1px solid red;*/
+	width: 140px;
+	height: 560px;
+	margin: 10px;
+	float: left;
+	background-color: #1F1F1F;
+
+}
+
+
+.ctrltext
+{
+	font-size: 1.3em;
+	font-family: "Arial";	
+	font-weight: bold;
+}
+
+
+.control
+{
+	color: black;
+	background-color: #207E9D;
+	transition: background-color 1s, border-radius 1s;
+	width: 110px;
+	height: 80px;
+}
+
+
+#clearPad
+{
+
+	margin-top: 100px;
+	padding-top: 25px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#credits
+{
+	margin-top: 300px;
+	margin-bottom: 60px;
+	width: 110px;
+	height: 50px;
+	padding-top: 8px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+
+.draggable 
+{
+	margin-left: 9px;
+	margin-right: 7px;
+	padding-top: 25px;
+	width: 80px;
+	height: 80px;
+	border-radius: 0.75em;
+	float: left;
+	font-size: 1.3em;
+	font-family: "Helvetica";	
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.draggable:hover
+{
+	border: 5px solid white;
+}
+
+
+.box-clone
+{
+	border: 5px solid white;
+	width: 80px;
+	height: 80px;
+	border-radius: 0.75em;
+	float: left;
+	margin: 5px;
+	font-family: "Helvetica";	
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+
+}
+
+
+.dropActive
+{
+	border-radius: 0.75em;
+	border: 2px solid #04516B;
+	border-style: dashed;
+}
+
+.dropHover
+{
+	border: 2px solid #C9F477;
+}
+
+
+
+
+#mycanv
+{
+	border: 1px solid #FC3F2C;
+	width: 100%;
+	height: 100%;
+
+}
+
+#svgdrop
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+/* Palette draggable */
+
+#green
+{
+	background-color: #A7EA29; /*Green fotonic */
+}
+
+#blue
+{
+	background-color: #207E9D; /*Blue Navy */
+}
+
+#red
+{
+	background-color: #FC3F2C; /*Red Scarlet */
+}
+
+#yellow
+{
+	background-color: #FFD103; /* Yellow */
+}
+
+#magenta
+{
+	background-color: #E4035E; /* Magenta */
+}
+
+#cyano
+{
+	background-color: #02C078; /* Cyano */
+}
+
+#orange
+{
+	background-color: #FF7400; /* Cyano */
+}
+
+#purple
+{
+	background-color: #9001ED; /* Cyano */
+}
+
+#brown
+{
+	background-color: #964B00; /* Cyano */
+}
+
+#pink
+{
+	background-color: #FF79A8; /* Cyano */
+}
+
